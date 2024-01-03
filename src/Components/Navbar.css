@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(233, 244, 248);
+}
+
+button {
+  background-color: #fff;
+  border: none;
+  height: 50px;
+}
+.navbar-left {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+}
+
+.navbar-right {
+  margin-right: 50px;
+  margin-top: 20px;
+  background-color: white;
+  margin-bottom: 35px;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.open-icon {
+  margin-top: 15px;
+  border-radius: 10px;
+  margin-left: 8px;
+}
+
+@media only screen and (min-width: 841px) {
+  .open-icon {
+    display: none;
+  }
+  .navbar {
+    justify-content: flex-end;
+  }
+}

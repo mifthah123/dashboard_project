@@ -1,0 +1,95 @@
+.top-feed-contents {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 5px 10px -3px gray;
+  height: 47vh;
+  width: 45vh;
+  padding: 20px;
+  margin-top: 55px;
+  border-radius: 12px;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 1px rgb(189, 186, 186) solid;
+}
+
+.pkg-basic-button {
+  margin-bottom: 15px;
+  margin-top: 20px;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: rgb(238, 238, 141);
+  font-size: medium;
+  letter-spacing: 0.7px;
+  cursor: pointer;
+}
+.pkg-basic-button:hover {
+  background-color: yellow;
+}
+
+.pkg-standard-button {
+  margin-bottom: 15px;
+  margin-top: 20px;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: lightgreen;
+  font-size: medium;
+  letter-spacing: 0.7px;
+  cursor: pointer;
+}
+
+.pkg-standard-button:hover {
+  background-color: rgb(52, 198, 52);
+}
+
+.pkg-premium-button {
+  margin-bottom: 15px;
+  margin-top: 20px;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: rgb(247, 200, 247);
+  font-size: medium;
+  letter-spacing: 0.7px;
+  cursor: pointer;
+}
+.pkg-premium-button:hover {
+  background-color: rgb(241, 159, 241);
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.bottom > p {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: black;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.bottom-content {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.bottom-content > span {
+  font-size: 13px;
+  font-weight: 500;
+}
+.bottom-icon {
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+}

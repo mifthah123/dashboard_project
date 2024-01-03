@@ -1,0 +1,26 @@
+.feed {
+  flex: 10;
+}
+
+.top-feed {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.top-feed-heading {
+  display: flex;
+  margin-left: 50px;
+}
+
+.top-feed-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.bottom-feed-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
